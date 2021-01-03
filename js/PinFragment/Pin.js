@@ -80,7 +80,7 @@ class Pin extends Component {
           <SvgUri
             width={styles.width}
             height={styles.height}
-            source={confirmPin.icon}
+            svgXmlData={confirmPin.icon}
           />
         );
       }
